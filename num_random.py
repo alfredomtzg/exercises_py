@@ -8,8 +8,8 @@ for _ in range(1000):
 
 # Mostrar los primeros números random antes de ordenar
 print("=== NÚMEROS ALEATORIOS (antes de ordenar) ===")
-print(f"Primeros 20 números random: {ordenada[:10]}")
-print(f"Últimos 20 números random: {ordenada[-10:]}")
+print(f"Primeros 10 números random: {ordenada[:10]}")
+print(f"Últimos 10 números random: {ordenada[-10:]}")
 print(f"Total de números generados: {len(ordenada)}")
 print()
 
@@ -22,8 +22,8 @@ for i in range(len(ordenada)):
             
             
 print("=== NÚMEROS ORDENADOS (después de ordenar) ===")
-print(f"Primeros 20 números ordenados: {ordenada[:10]}")
-print(f"Últimos 20 números ordenados: {ordenada[-10:]}")
+print(f"Primeros 10 números ordenados: {ordenada[:10]}")
+print(f"Últimos 10 números ordenados: {ordenada[-10:]}")
 print(f"Número más pequeño: {ordenada[0]}")
 print(f"Número más grande: {ordenada[-1]}")
 
